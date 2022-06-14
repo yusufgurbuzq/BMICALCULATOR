@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarSize="0sp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/arkaplan"
+        tools:context=".egzActivity">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="EGZERSİZLER"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="1. Inverted V Pipe"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.163"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="346dp"
+            android:layout_height="159dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/v1" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="396dp"
+            android:layout_height="174dp"
+
+            android:paddingLeft="4dp"
+            android:text="  Plank benzeri olan bu hareket en yapabileceğiniz en basit kilo\n
+ verme egzersizleri arasında. Tek ihtiyacınız olan ise bir mat. \n
+ Bu egzersiz  esas olarak karın bölgesinde yağları hedef alıyor.\nBu hareketi yapmak içinse, matınızın üzerine yüz üstü uzanın. Ayak parmak uçlarınızı ve ellerinizi matın üzerinde tutarak, bacaklarınızı ellerinize doğru çekin. Kalçalarınızı yukarı \n
+kaldırın ve V şeklini alın. Sonra tekrar ayaklarınızı kaydırarak ilk başa dönün. Bu hareketi sayıya takılmadan 30 saniye yapın. Kollarınızı, gövdenizi ve alt gövdenizi birlikte çalıştırın."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="2. Crunch"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.148"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="366dp"
+            android:layout_height="137dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.255"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/crunch_2" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="387dp"
+            android:layout_height="132dp"
+            android:layout_marginBottom="32dp"
+            android:text="Crunch hareketi, bilinen en temel karın hareketlerinden biri. Karın kasları için verimli olan bu hareket aynı zamanda üst bedeninizi de tamamen çalıştırır. Bu hareket için matınızın üstüne sırt üstü uzanın ve dizlerinizi hafifçe bükün. Kollarınızı başınızın arkasına koyun ve bu pozisyonda gövdenizi bacaklarınıza doğru kaldırın. Kalkarken nefes verin ve sırt üstü uzanırken nefes alın. İlk kez spor yapıyorsanız bu hareketi 2 set şeklinde 10’ar kez tekrarlayabilirsiniz."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/textView11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="3. Squat"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.143"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="370dp"
+            android:layout_height="241dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/squat2"
+            tools:srcCompat="@drawable/squat2" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="395dp"
+            android:layout_height="152dp"
+            android:layout_marginBottom="20dp"
+            android:text="Sıkı bir kalçaya sahip olmak için yapabileceğiniz en temel egzersizlerden biri ise squat. Bu hareketin farklı versiyonları bulunuyor. Ancak en bilinen versiyonu için bacaklarınızı omuz hizasında açın ve sırtınızı dik tutup kalçanızı dışarı vererek hafifçe çömelin. Squatta teme nokta dizlerinizin ayak parmaklarınızı geçmemesidir. Bu hareketi de vücudunuzun dayanıklılığına göre 10’ar kezden 3 set olacak şekilde ya da daha fazla yapabilirsiniz. Squat, kilo verme egzersizleri arasında şüphesiz en çok tercih edilenlerden biri"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toTopOf="@+id/textView13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Köprü hareketi"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.206"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="416dp"
+            android:layout_height="186dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/bridge" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="388dp"
+            android:layout_height="161dp"
+            android:text="Kalça, bacak ve karın kaslarını çalıştıran bu hareket de oldukça basit. Matınızın üstüne sırt üstü uzanın ve dizlerinizi bükerek omuz hizasında açın. Elleriniz iki yanda ve matın üstünde olmalıdır. Ardından elleriniz iki yandayken yalnızca kalçanızı yukarı kaldırın 2-3 saniye kadar o pozisyonda tutup ardından indirin. Hareket esnasında ayak tabanlarınız daima matın üstünde olmalıdır. Bu hareketi de tıpkı squat gibi 10’ar kezden 3 set olacak şekilde ya da daha fazla yapabilirsiniz."
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.285"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+    <!--<pl.droidsonroids.gif.GifImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+
+
+         android:src="@drawable/egzersiz"
+
+         />-->
+
+
+
+
+

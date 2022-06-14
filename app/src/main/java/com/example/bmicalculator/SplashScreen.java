@@ -12,18 +12,26 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(SplashScreen.this,MainActivity.class));
+        Thread timerThread = new Thread(){ //timer kullanarak ekranın 5 saniye sonra diğer ekrana geçmesini söyliyorum
+            public void run(){
+                try{
+                    sleep(1);
+                }catch(InterruptedException e){
+                    e.printStackTrace();
+                }finally{
+                    startActivity(new Intent(SplashScreen.this,MainActivity.class));
+
+                    finish();
+                }
                 finish();
-
             }
-        },1);
-
-
+        };
+        timerThread.start();
 
         }
 
     }
+
+
+
 
