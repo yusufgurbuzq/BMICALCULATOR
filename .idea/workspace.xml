@@ -10,15 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9cd2800-897b-4b2f-9562-0d90d243ccdd" name="Changes" comment="ilk gonderim asd">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/BMI_CALCULATOR.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/BMI_CALCULATOR.app.androidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/BMI_CALCULATOR.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/BMI_CALCULATOR.app.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/BMI_CALCULATOR.app.unitTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +55,9 @@
         <option name="url" value="https://github.com/yusufgurbuzq/BMICALCULATOR.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="groupByToolId" value="true" />
   </component>
   <component name="ProjectId" id="2AL9idTaObN6A53NTs3nRWlojqa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -217,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655245421029</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ilk gonderim asd">
+      <created>1655245951931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655245951931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
