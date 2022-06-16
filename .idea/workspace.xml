@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9cd2800-897b-4b2f-9562-0d90d243ccdd" name="Changes" comment="ilk gonderim asd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b9cd2800-897b-4b2f-9562-0d90d243ccdd" name="Changes" comment="Bmi_proje" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655245951931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bmi_proje">
+      <created>1655398274103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655398274103</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +243,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ilk gonderim" />
     <MESSAGE value="ilk gonderim asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ilk gonderim asd" />
+    <MESSAGE value="Bmi_proje" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bmi_proje" />
   </component>
 </project>
